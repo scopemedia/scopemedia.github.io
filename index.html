@@ -30,6 +30,17 @@
     <!--[if IE 8]>
       <link href="https://a1.muscache.com/airbnb/help/public/ie8-a37ba044d081eaf95eea8d35a5ce5955.css" media="all" rel="stylesheet" type="text/css" />
     <![endif]-->
+	<!-- Scopemedia - Updated search_container and added it to this page to make the example easy to follow -->
+	<style media="screen" type="text/css">
+		.search-container {
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 25px;
+			padding-right: 25px;
+			position: relative;
+			z-index: 1;
+		}
+	</style>
   </head>
 
   <body class="  en-AU production">
@@ -130,11 +141,12 @@
 </div>
 </div>
 
+<!-- Scopemedia - Removed page-container-full div as the min-width was too large and unnecessary -->
       <div class="search_bar_view" data-view="search_bar_view"><div class='media-photo media-photo-block'>
 
   <div class='media-search-container media-cover media-cover-dark'></div>
-
-  <div class='page-container search-container'>
+<!-- Scopemedia - Removed page-container class and moved styles to search-container -->
+  <div class='search-container'>
     <div class="row row-space-6 row-space-top-6">
       <div class='col-10 col-offset-1'>
           <div class='panel-body'>
